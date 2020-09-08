@@ -1,0 +1,13 @@
+$studenten = array ("Piet", "Muhammad", "Els");
+
+$leeftijd['Piet'] = 18;
+$leeftijd['Muhammad'] = 18;
+$leeftijd['Els'] = 16;
+
+$klas['Piet'] = 9A;
+$klas['Muhammad'] = 9G;
+$klas['Els'] = 9C;
+
+$achternaam['Piet'] = De Jong;
+$achternaam['Muhammad'] = Ali;
+$achternaam['Els'] = De Jong;
