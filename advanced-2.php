@@ -11,7 +11,7 @@
 	
 	<tr>
     <?php
-        $gegevens= array("voornaam"=> "Mubarak", "leeftijd"=> 22, "woonplaats"=>"Amsterdam", "Sport"=>"Sportschool", "Opleiding"=> "Software Developer");
+        $gegevens= array("voornaam"=> "Mubarak", "leeftijd"=> 22, "woonplaats"=>"Amsterdam", "Werk"=>"Taxi", "opleiding"=> "Software Developer");
         function maakRijTH($key,$value){
         echo "<th style=\"color:$_POST[tekstKleur];padding:$_POST[padding];border:$_POST[border];\">$key</th>";
 					
