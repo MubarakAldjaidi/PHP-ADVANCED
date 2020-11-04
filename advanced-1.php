@@ -4,11 +4,12 @@
  
 </head>
 <body>
-<form name="paginaEisen" action="advanced-2.php" 
-method="post">
+<form name="eindopdracht" action="advanced-2.php" method="post">
 <select name="tekstKleur" id="tekstKleur">
     <option> In welke kleur wil je de tekst?</option>
-    <?php     
+    
+
+<?php     
     $kleuren = array("black", "brown", "pink", "green", "purple");
     foreach($kleuren as $kleur){
     
@@ -17,6 +18,7 @@ method="post">
     <?php } ?>
 </select>
 <br>
+
 <select name="BGkleur" id="BGkleur">
     <option> Welke achtergond kleur wil je op de pagina?</option>
     <?php     
@@ -28,6 +30,7 @@ method="post">
     <?php } ?>
 </select>
 <br>
+
 <select name="border" id="border">
     <option> Welke border dikte wil je?</option>
     <?php     
@@ -39,6 +42,7 @@ method="post">
     <?php } ?>
 </select>
 <br>
+
 <select name="padding" id="padding">
     <option> Welke padding wil je voor het tabel?</option>
     <?php     
@@ -50,7 +54,9 @@ method="post">
     <?php } ?>
 </select>
 <br>
+
 <input type="submit" name="submit" value="verstuur">
+
 </form>
 </body>
  
